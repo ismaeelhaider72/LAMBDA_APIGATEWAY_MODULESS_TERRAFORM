@@ -1,9 +1,9 @@
 locals{
 
-    lambda_zip_location_create = "output/ismaeelCreatedFunctionp.zip"
-    lambda_zip_location_get = "output/ismaeelGetITFucntionp.zip"
-    lambda_zip_location_delete = "output/ismaeeldeleteFunctionp.zip"
-    lambda_zip_location_update = "output/ismaeelUpdateFunctionp.zip"
+    lambda_zip_location_create = "${path.module}/output/ismaeelCreatedFunctionp.zip"
+    lambda_zip_location_get = "${path.module}/output/ismaeelGetITFucntionp.zip"
+    lambda_zip_location_delete = "${path.module}/output/ismaeeldeleteFunctionp.zip"
+    lambda_zip_location_update = "${path.module}/output/ismaeelUpdateFunctionp.zip"
 }
 
 
